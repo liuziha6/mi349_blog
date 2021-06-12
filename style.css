@@ -26,7 +26,19 @@ p {
 
 .blog-post{
     border-bottom:1px dotted #ccc;
+    display: flex;
   }
 a[target]{
     background-color: yellow;
+}
+
+nav{
+    background:cornflowerblue;
+    position:sticky;
+    top:10px;
+}
+.left{
+
+    float:left;
+    margin-right:10px;
 }
