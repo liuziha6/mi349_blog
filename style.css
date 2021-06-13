@@ -42,3 +42,26 @@ nav{
     float:left;
     margin-right:10px;
 }
+
+
+/*body{
+  background: #222;
+  color:#f3f3f3;
+  font-family: Helvetica, sans-serif;
+}*/
+.cards{
+  background: #222;
+  color:#f3f3f3;
+  font-family: Helvetica, sans-serif;
+}
+
+.card{
+  background:#121212;
+  border-radius: 10px;
+  padding:20px;
+}
+@media(max-width:400px ){
+  #c1{
+      background: red;
+  }
+}
